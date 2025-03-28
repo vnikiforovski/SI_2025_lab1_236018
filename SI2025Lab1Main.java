@@ -76,6 +76,15 @@ class TaskManager {
     // 3. List tasks sorted by name
     public void sortTasksByName() {
         // TODO: Implement sorting logic
+        for (int i = 0; i < tasks.size() - 1; i++){
+            for (int j = i + 1; j < tasks.size(); j++) {
+                if (tasks.get(i).getName().compareTo(tasks.get(j).getName()) > 0){
+                    Task temp = tasks.get(i);
+                    tasks.set(i, tasks.get(j));
+                    tasks.set(j, temp);
+                }
+            }
+        }
     }
 
     // 4. Sort tasks by priority
