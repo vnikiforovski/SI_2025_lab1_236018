@@ -1,0 +1,35 @@
+14. git checkout 1-remove-a-task-by-name
+Za da se prefrlime na grankata 1-remove-a-task-by-name
+
+16. git add SI2025Lab1Main.java
+git commit -m "Implemented removeTask"
+Otkako kje ja implementirame funkcijata treba add za da se stavi na staged i potoa commit
+
+17. git push origin master
+Se sinhronizira origin na remote repo so master na local repo
+
+18. git checkout 2-find-all-completed-tasks
+git add SI2025Lab1Main.java
+git commit -m "Implemented getCompletedTasks"
+git push origin master
+git checkout 3-list-tasks-sorted-by-name
+git add SI2025Lab1Main.java
+git commit -m "Implemented sortTasksByName"
+git push origin master
+Ova se povtoruva i za ostanatite 2 issues
+
+20-22.
+git checkout master
+git merge 3-list-tasks-sorted-by-name
+ovde sledno probal vednas git push origin master, no ne mi dade bidejkji na remote repo imalo raboti koi gi nema na local repo, pa napraviv git pull i napisav poraka merge branch 3-list-tasks-sorted-by-name i potoa git push origin master
+Nemase konflikti ni na pull request ni pri racniot merge, a site issues otidoa vo Done
+
+24. git add --all
+git commit -m "Final commit"
+za 236018.txt i logs.txt
+
+26. git push origin master
+
+
+
+

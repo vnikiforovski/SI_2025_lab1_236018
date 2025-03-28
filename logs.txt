@@ -1,0 +1,15 @@
+*   f164ce9 merge branch 3-list-tasks-sorted-by-name
+|\  
+| *   6f0d69e Merge pull request #11 from vnikiforovski/2-find-all-completed-tasks
+| |\  
+| | * c4caba0 Implemented getCompletedTasks
+| * |   829dcd3 Merge pull request #10 from vnikiforovski/1-remove-a-task-by-name
+| |\ \  
+| | |/  
+| |/|   
+| | * e57613e Implemented removeTask
+| |/  
+* / b8d4381 Implemented sortTasksByName
+|/  
+* b3c1e0f Add starter code
+* 40cbe99 Initial commit
